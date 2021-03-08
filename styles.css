@@ -51,13 +51,15 @@ li, p {
 
 #ingredients, #equipment, #directions {
   display: inline-block;
+  overflow: hidden;
   float: left;
   width: 30%;
-  height: 100vh;
+  height: 9vh;
   margin: 1%;
   border: solid 2px;
   background-color: #ebfaff;
 }
+
 
 #image {
   width: 100%;
@@ -100,4 +102,25 @@ li, p {
     border: #a8e9ff solid 6px;
   }
   
+}
+
+.title {
+  color: black;
+}
+
+/* for java */
+#titleBanner h1.clicked {
+  color: blue;
+}
+
+div#ingredients.ingredientsClicked {
+  height: 100vh;
+}
+
+div#equipment.equipmentClicked {
+  height: 100vh;
+}
+
+div#directions.directionsClicked {
+  height: 100vh;
 }
